@@ -1,0 +1,13 @@
+header {
+  background-color: forestgreen;
+  height: 100px;
+}
+
+.fas.fa-bars.fs-2::before {
+  font-size: 30px;
+  line-height: 100px;
+}
+
+.title {
+  line-height: 100px;
+}
