@@ -1,6 +1,13 @@
+:root {
+  --forest-g: forestgreen;
+  --orange: orange;
+}
 header {
   background-color: forestgreen;
-  height: 100px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .fas.fa-bars.fs-2::before {
@@ -10,4 +17,46 @@ header {
 
 .title {
   line-height: 100px;
+}
+
+#jumbotron {
+  background-color: dodgerblue;
+}
+
+#portfolio {
+  background-color: firebrick;
+}
+
+#about {
+  background-color: var(--orange);
+}
+
+#contact {
+  background-color: saddlebrown;
+}
+
+#burger {
+  border-color: var(--forest-g);
+}
+
+#avatar {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.greca {
+  height: 50px;
+  width: 30%;
+  background-color: var(--forest-g);
+  margin: 0 auto;
+}
+
+#btn-download {
+  border-color: white;
+  background-color: var(--orange);
+}
+
+#contact-box {
+  width: 70%;
+  margin: 0 auto;
 }
