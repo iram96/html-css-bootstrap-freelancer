@@ -15,39 +15,27 @@
     <!-- HEADER -->
     <header>
         
-            <nav class="navbar w-100 navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav class="navbar w-100 navbar-expand-lg navbar-light justify-content-md-around" >
+                <div class="container">
+                  <a id="home" class="navbar-brand d-flex text-white fw-bolder" href="#jumbotron">BOOTSTRAP</a>
+                  <button id="burger" class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="slices" class="navbar-toggler-icon d-flex d-lg-none"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <div class="collapse navbar-collapse text-reset" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-reset">
+                        
+                      <li class="nav-item me-3">
+                        <a class="nav-link text-white fw-bold" href="#portfolio">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link text-white fw-bold" href="#about">ABOUT</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link text-white fw-bold" href="#contact">CONTACT</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                      </li>
+                      
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    
                   </div>
                 </div>
               </nav>
@@ -56,47 +44,78 @@
     </header>
     <!-- JUMBOTRON -->
     <section id="jumbotron">
-        <div class="container text-center">
+        <div class="container text-center text-white py-4">
             <figure id="avatar">
                 <img src="img/avatar.svg" alt="avatar   ">
             </figure>
             <h1>START BOOTSTRAP</h1>
-            <div class="greca">
+            <div class="greca d-flex">
+                <div class="col my-auto">
+                    <div class="progress">
+                        <div class="progress-bar" ></div>
+                      </div>
+                </div>
+                <div class="col-4 my-auto">
+                    <i class="fas fa-star text-white fs-1"></i>
+                </div>
+                <div class="col my-auto">
+                    <div class="progress ">
+                        <div class="progress-bar" ></div>
+                      </div>
+                </div>
+
 
             </div>
-            <span>Sesso - Droga - Rock&Roll</span>
+            <div>
+                <h4>Sesso - Droga - Rock&Roll<h4>
+
+            </div>
             
         </div>
     </section>
     <!-- PORTFOLIO -->
     <section id="portfolio">
-        <div class="container text-center">
+        <div class="container text-center py-4">
             <h2>PORTFOLIO</h2>
-            <div class="greca">
+            <div class="greca d-flex">
+                <div class="col my-auto">
+                    <div class="progress">
+                        <div class="progress-bar" ></div>
+                      </div>
+                </div>
+                <div class="col-4 my-auto">
+                    <i class="fas fa-star fs-1"></i>
+                </div>
+                <div class="col my-auto">
+                    <div class="progress ">
+                        <div class="progress-bar" ></div>
+                      </div>
+                </div>
+
 
             </div>
             <div class="row">
-                <figure class="col-12">
+                <figure class="col-12 col-lg-6 col-xl-4">
                     <img class="mb-3 rounded-3" src="img/cabin.png" alt="cabin">
                     
                 </figure>
-                <figure class="col-12">
+                <figure class="col-12 col-lg-6 col-xl-4">
                     <img class="mb-3 rounded-3" src="img/cake.png" alt="cake">
 
                 </figure>
-                <figure class="col-12">
+                <figure class="col-12 col-lg-6 col-xl-4">
                     <img class="mb-3 rounded-3" src="img/circus.png" alt="circus">
 
                 </figure>
-                <figure class="col-12">
+                <figure class="col-12 col-lg-6 col-xl-4">
                     <img class="mb-3 rounded-3" src="img/game.png" alt="game">
 
                 </figure>
-                <figure class="col-12">
+                <figure class="col-12 col-lg-6 col-xl-4">
                     <img class="mb-3 rounded-3" src="img/safe.png" alt="safe">
 
                 </figure>
-                <figure class="col-12">
+                <figure class="col-12 col-lg-6 col-xl-4">
                     <img class="mb-3 rounded-3" src="img/submarine.png" alt="submarine">
 
                 </figure>
@@ -106,39 +125,77 @@
     </section>
     <!-- ABOUT -->
     <section id="about">
-        <div class="container text-center">
+        <div class="container text-center text-white py-4">
             <h2>ABOUT</h2>
-            <div class="greca">
+            <div class="greca d-flex">
+                <div class="col my-auto">
+                    <div class="progress">
+                        <div class="progress-bar" ></div>
+                      </div>
+                </div>
+                <div class="col-4 my-auto">
+                    <i class="fas fa-star text-white fs-1"></i>
+                </div>
+                <div class="col my-auto">
+                    <div class="progress ">
+                        <div class="progress-bar" ></div>
+                      </div>
+                </div>
+
 
             </div>
             <div class="row">
 
-                <div class="offset-2 col-8 text-start">
+                <div class="offset-2 col-8 offset-md-2 col-md-4 text-start ">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, incidunt. Maiores illum facilis voluptatum recusandae, eaque consequuntur perspiciatis enim quia explicabo voluptate quae. Repudiandae itaque veritatis consectetur nobis ratione eum?</p>
                 </div>
-                <div class="offset-2 col-8 text-start">
+                <div class="offset-2 col-8 offset-md-0 col-md-4 text-start">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, incidunt. Maiores illum facilis voluptatum recusandae, eaque consequuntur perspiciatis enim quia explicabo voluptate quae. Repudiandae itaque veritatis consectetur nobis ratione eum?</p>
                 </div>
             </div>
-            <button type="button" id="btn-download" class="btn btn-primary"> <i class="fas fa-download"></i> Download</button>
+            <button type="button" class=" btn-download btn text-white"> <i class="fas fa-download"></i> Download</button>
 
         </div>
     </section>
     <!-- CONTACT-ME -->
     <section id="contact">
-        <div class="container text-center">
+        <div class="container text-center py-4">
             <h3>CONTACT ME</h3>
-            <div class="greca">
+            <div class="greca d-flex">
+                <div class="col my-auto">
+                    <div class="progress">
+                        <div class="progress-bar"   ></div>
+                      </div>
+                </div>
+                <div class="col-4 my-auto">
+                    <i class="fas fa-star fs-1"></i>
+                </div>
+                <div class="col my-auto">
+                    <div class="progress ">
+                        <div class="progress-bar" role="progressbar"  ></div>
+                      </div>
+                </div>
+
 
             </div>
-            <div class="offset-2 col-8 text-start">
+            <div class="row">
+                <div class="offset-2 col-8 text-start fs-4">
+    
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control">
 
-                <label for="name" class="form-label">Name</label>
-                <input type="text" id="name" class="form-control">
-                <label for="email" class="form-label">E-Mail</label>
-                <input type="email" id="email" class="form-control">
-                <label for="tel" class="form-label">Phone Number</label>
-                <input type="tel" id="tel" class="form-control">
+                    <label for="email" class="form-label">E-Mail</label>
+                    <input type="email" id="email" class="form-control">
+
+                    <label for="tel" class="form-label">Phone Number</label>
+                    <input type="tel" id="tel" class="form-control">
+
+                    <div class="mb-3">
+                        <label for="text-area" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="text-area" ></textarea>
+                      </div>
+                      <button type="button" class="mb-5 btn-download btn text-white">Submit</button>
+                </div>
             </div>
 
 
@@ -146,7 +203,30 @@
     </section>
     <!-- FOOTER -->
     <footer>
-        <div class="container">
+        <div class="container overflow-hidden">
+            <div class="row gx-5 py-4 justify-content-sm-between">
+                <div class="col-12 col-sm-3 text-center mb-3">
+                    <h5>Location</h5>
+                    <span>2215 Jhon Daniel Drive Clark, MO 54243</span>
+                </div>
+                <div class="offset-3 col-6 offset-sm-0 col-sm-4 col-xl-3 text-center  mb-3">
+                    <h5>Around the web</h5>
+                    <ul class="list-group list-group-horizontal justify-content-around">
+                        <li class="list-group-item col-3 border border-1 rounded-circle p-0"><i class="fab fa-facebook-f position-absolute top-50 start-50 translate-middle"></i></li>
+                        <li class="list-group-item col-3 border border-1 rounded-circle p-0"><i class="fab fa-google-plus-g position-absolute top-50 start-50 translate-middle"></i></li>
+                        <li class="list-group-item col-3 border border-1 rounded-circle p-0"><i class="fab fa-twitter position-absolute top-50 start-50 translate-middle"></i></li>
+                        <li class="list-group-item col-3 border border-1 rounded-circle p-0"><i class="fab fa-linkedin-in position-absolute top-50 start-50 translate-middle"></i></li>
+                      </ul>
+                </div>
+                <div class="col-12 col-sm-3 text-center mb-3">
+                    <h5>About the freelancer</h5>
+                    <span>Freelance is a free to use, open source Bootstrap theme created by <span class="text-warning fw-bold ">Start Bootstrap</span></span>
+                </div>
+            </div>
+            
+        </div>
+        <div id="copyright">
+            <span class="position-absolute top-50 start-50 translate-middle text-white">Copyright &copy; Your Website 2019</span>
 
         </div>
     </footer>

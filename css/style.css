@@ -7,9 +7,6 @@
 img {
   max-width: 100%;
 }
-.text-white {
-  color: white;
-}
 
 /* Decoration */
 
@@ -48,8 +45,11 @@ header {
 .title {
   line-height: 100px;
 }
+#slices {
+  filter: invert(1);
+}
 #burger {
-  border-color: var(--forest-g);
+  border-color: white;
 }
 
 /* Jumbotron */
@@ -61,14 +61,17 @@ header {
   margin: 0 auto;
 }
 
+/* Portfolio */
+#portfolio {
+  background-color: white;
+}
+
 /* About */
 #about {
   background-color: #1abc9c;
 }
-
-/* Portfolio */
-#portfolio {
-  background-color: white;
+#about .btn:hover {
+  background-color: #3e546d;
 }
 
 /* Contact */
@@ -83,4 +86,36 @@ button.btn-download {
 #contact-box {
   width: 70%;
   margin: 0 auto;
+}
+
+#contact .row .btn:hover {
+  background-color: #3e546d;
+}
+
+/* Footer */
+footer,
+footer ul.list-group li {
+  background-color: #3a546d;
+  color: white;
+}
+#copyright {
+  height: 100px;
+  position: relative;
+  background-color: #2c3e50;
+}
+
+footer .list-group li {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+footer .list-group li:hover {
+  background-color: #6e89a3;
+}
+
+@media screen and (min-width: 992px) {
+  #home {
+    font-size: 1.5rem;
+  }
 }
