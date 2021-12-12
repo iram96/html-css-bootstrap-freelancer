@@ -2,58 +2,79 @@
   --forest-g: forestgreen;
   --orange: orange;
 }
-header {
-  background-color: #2c3e50;
+
+/* Specific */
+img {
+  max-width: 100%;
 }
 .text-white {
   color: white;
 }
 
-img {
-  max-width: 100%;
+/* Decoration */
+
+.greca {
+  height: 50px;
+  width: calc(100% / 3);
+  margin: 0 auto;
+}
+.greca .progress {
+  height: 0.5rem;
+  background-color: white;
+}
+#portfolio .greca .progress,
+#contact .greca .progress {
+  height: 0.5rem;
+  background-color: #2c3e50;
 }
 
-.fas.fa-bars.fs-2::before {
-  font-size: 30px;
-  line-height: 100px;
+#portfolio .greca .fa-star,
+#contact .greca .fa-star {
+  color: #2c3e50;
+}
+
+#contact .row input,
+#contact .row textarea {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
 }
 
 .title {
   line-height: 100px;
 }
-
-#jumbotron {
-  background-color: dodgerblue;
-}
-
-#portfolio {
-  background-color: firebrick;
-}
-
-#about {
-  background-color: #1abc9c;
-}
-
-#contact {
-  background-color: saddlebrown;
-}
-
 #burger {
   border-color: var(--forest-g);
 }
 
+/* Jumbotron */
+#jumbotron {
+  background-color: #1abc9c;
+}
 #avatar {
   width: 200px;
   margin: 0 auto;
 }
 
-.greca {
-  height: 50px;
-  width: 30%;
-  background-color: var(--forest-g);
-  margin: 0 auto;
+/* About */
+#about {
+  background-color: #1abc9c;
 }
 
+/* Portfolio */
+#portfolio {
+  background-color: white;
+}
+
+/* Contact */
+#contact {
+  background-color: white;
+}
 button.btn-download {
   border-color: white;
   background-color: #1abc9c;
