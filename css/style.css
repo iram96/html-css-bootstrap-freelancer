@@ -114,8 +114,18 @@ footer .list-group li:hover {
   background-color: #6e89a3;
 }
 
-@media screen and (min-width: 992px) {
-  #home {
+/* @media screen and (max-width: 992px) {
+  #start-home {
+    display: none;
+  }
+} */
+
+/* @media screen and (min-width: 992px) {
+  #boot {
+    display: none;
+  }
+  #start-boot {
+    display: flex;
     font-size: 1.5rem;
   }
-}
+} */
